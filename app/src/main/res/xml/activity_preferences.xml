@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="Nombre"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Introduce tu nombre" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="comida"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Comida Favorita" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="musica"
+        android:title="Te gusta la musica" />
+
+    <PreferenceScreen
+        android:title="Más opciones..." >
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="edit_text_preference_3"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Edit text preference" />
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="edit_text_preference_3"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Edit text preference" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_preference_2"
+            android:title="Check box preference" />
+
+        <PreferenceScreen
+            android:title="Aún más opciones...">
+            <ListPreference
+                android:defaultValue="1"
+                android:entries="@array/entradas"
+                android:entryValues="@array/Valores"
+                android:key="list_preference_1"
+                android:title="List preference" />
+        </PreferenceScreen>
+    </PreferenceScreen>
+
+</PreferenceScreen>

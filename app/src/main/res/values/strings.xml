@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EVA2_2_SCREEN_PREFERENCES</string>
+    <string-array name="entradas">
+        <item>Tacos</item>
+        <item>Carne Asada</item>
+        <item>Burguers</item>
+        <item>Enchiladas</item>
+        <item>Tortas</item>
+        <item>Montados</item>
+    </string-array>
+    <string-array name="Valores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
